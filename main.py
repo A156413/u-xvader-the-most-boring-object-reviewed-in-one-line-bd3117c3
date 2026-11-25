@@ -1,4 +1,7 @@
-"""One-line review of the most boring everyday object: the rubber band.
+"""One-line review of the most boring everyday object: the doorstop.
+
+The joke is the object's own dullness: a wedge nobody notices until the
+day it goes missing and the door reminds you it existed.
 
 Deterministic: no network, no randomness, no clock. Writes the review to
 $MAKEFUN_OUTPUT_DIR/entry.txt (default /output) and prints it to stdout.
@@ -8,9 +11,9 @@ import os
 from pathlib import Path
 
 ENTRY = (
-    "The rubber band: hired to hold everything together, "
-    "it slowly rots in the drawer, then snaps the one time "
-    "you actually need it."
+    "The doorstop: its entire career is lying on the floor "
+    "being stepped over, until the day it goes missing and "
+    "the door slams on your fingers."
 )
 
 
